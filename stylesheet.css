@@ -18,15 +18,18 @@ Hvid: #ffffff*/
     font-style: normal;
 }
 
+
 p {
-    font-family: "atwriter-webfont"
+    font-family: "atwriter-webfont";
 }
 
 .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .column {
     width: 400px;
+
 }
