@@ -33,3 +33,9 @@ p {
     width: 400px;
 
 }
+
+.video iframe {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 560px;
+}
