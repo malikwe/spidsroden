@@ -36,3 +36,9 @@ p {
     transform: translateX(-50%);
     width: 560px;
 }
+
+@media screen and (orientation:portrait) and (min-width: 376px) {
+    .video irame {
+        width: 50px;
+    }
+}
