@@ -1,4 +1,4 @@
-/*COLORS:
+    /*COLORS:
 Mørk orange: #8c2f0e
 Lysere orange: #cf6539
 Lyseste orange: #e59136
@@ -38,7 +38,6 @@ p {
 
 .column {
     width: 400px;
-
 }
 
 .video iframe {
@@ -48,9 +47,11 @@ p {
     height: 600px;
 }
 
-<<<<<<< HEAD
+.href {
+    color: #69933c;
+}
 
-@media screen and (orientation:portrait) and (min-width: 376px) {
+<<<<<<< HEAD @media screen and (orientation:portrait) and (min-width: 376px) {
     .video iframe {
         width: 395px;
     }
@@ -58,12 +59,10 @@ p {
         max-width: 800px;
         margin-left: 50%;
         transform: translateX(-50%);
-
     }
-=======
-.instagram {
-    max-width: 800px;
-    margin-left: 50%;
-    transform: translateX(-50%);
-}
->>>>>>> origin/master
+    =======.instagram {
+        max-width: 800px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    >>>>>>>origin/master
