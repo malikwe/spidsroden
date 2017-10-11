@@ -48,7 +48,7 @@ p {
     height: 600px;
 }
 
-<<<<<<< HEAD
+
 
 @media screen and (orientation:portrait) and (min-width: 376px) {
     .video iframe {
@@ -58,12 +58,3 @@ p {
         max-width: 800px;
         margin-left: 50%;
         transform: translateX(-50%);
-
-    }
-=======
-.instagram {
-    max-width: 800px;
-    margin-left: 50%;
-    transform: translateX(-50%);
-}
->>>>>>> origin/master
