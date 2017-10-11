@@ -39,3 +39,9 @@ p {
     transform: translateX(-50%);
     width: 560px;
 }
+
+.instagram {
+    max-width: 800px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
