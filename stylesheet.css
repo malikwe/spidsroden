@@ -9,7 +9,10 @@ Lyseste grøn: #aac174
 Sort: #000000
 Hvid: #ffffff*/
 
-* {}
+* {
+    margin: 0;
+    padding: 0;
+}
 
 @font-face {
     font-family: 'atwriter-webfont';
@@ -18,9 +21,13 @@ Hvid: #ffffff*/
     font-style: normal;
 }
 
+#kontaktinfo img {
+    width: 400px;
+}
 
 p {
     font-family: "atwriter-webfont";
+    margin: 20px;
 }
 
 .sectionwrapper {
@@ -41,6 +48,7 @@ p {
     height: 600px;
 }
 
+<<<<<<< HEAD
 
 @media screen and (orientation:portrait) and (min-width: 376px) {
     .video iframe {
@@ -52,3 +60,10 @@ p {
         transform: translateX(-50%);
 
     }
+=======
+.instagram {
+    max-width: 800px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+>>>>>>> origin/master
