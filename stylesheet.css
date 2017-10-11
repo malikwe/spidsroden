@@ -37,13 +37,14 @@ p {
 .video iframe {
     margin-left: 50%;
     transform: translateX(-50%);
-    width: 560px;
+    width: 1000px;
+    height: 600px;
 }
 
 
 @media screen and (orientation:portrait) and (min-width: 376px) {
-    .video irame {
-        width: 50px;
+    .video iframe {
+        width: 395px;
     }
     .instagram {
         max-width: 800px;
