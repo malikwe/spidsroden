@@ -40,6 +40,22 @@ Hvid: #ffffff*/
                     width: 400px;
                 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+
+@media screen and (orientation:portrait) and (min-width: 376px) {
+    .video iframe {
+        width: 395px;
+    }
+    .instagram {
+        max-width: 800px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+=======
+            <<<<<<< HEAD @media screen and (orientation:portrait) and (min-width: 376px) {
+>>>>>>> origin/master
                 .video iframe {
                     margin-left: 50%;
                     transform: translateX(-50%);
@@ -51,6 +67,7 @@ Hvid: #ffffff*/
                     font-family: "atwriter-webfont";
                     color: #69933c;
                 }
+<<<<<<< HEAD
 
                 footer {
                     background-color: #476d42;
@@ -71,3 +88,7 @@ Hvid: #ffffff*/
                         transform: translateX(-50%);
                     }
                     >>>>>>>origin/master
+=======
+                >>>>>>>origin/master
+>>>>>>> origin/master
+>>>>>>> origin/master
