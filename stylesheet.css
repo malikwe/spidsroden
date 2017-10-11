@@ -9,7 +9,10 @@ Lyseste grøn: #aac174
 Sort: #000000
 Hvid: #ffffff*/
 
-* {}
+* {
+    margin: 0;
+    padding: 0;
+}
 
 @font-face {
     font-family: 'atwriter-webfont';
@@ -18,9 +21,13 @@ Hvid: #ffffff*/
     font-style: normal;
 }
 
+#kontaktinfo img {
+    width: 400px;
+}
 
 p {
     font-family: "atwriter-webfont";
+    margin: 20px;
 }
 
 .sectionwrapper {
