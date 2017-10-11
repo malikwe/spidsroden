@@ -1,4 +1,4 @@
-                    /*COLORS:
+                        /*COLORS:
 Mørk orange: #8c2f0e
 Lysere orange: #cf6539
 Lyseste orange: #e59136
@@ -20,15 +20,25 @@ Hvid: #ffffff*/
                         font-style: normal;
                     }
 
+<<<<<<< HEAD
                     h2 {
                         font-family: 'atwriter-webfont';
                     }
 
+=======
+>>>>>>> origin/master
                     a {
                         font-family: "atwriter-webfont";
                         color: #69933c;
                     }
 
+<<<<<<< HEAD
+=======
+                    a:hover {
+                        color: #cf6539;
+                    }
+
+>>>>>>> origin/master
                     footer {
                         font-family: "atwriter-webfont";
                         background-color: #476d42;
@@ -47,6 +57,7 @@ Hvid: #ffffff*/
                     p {
                         font-family: "atwriter-webfont";
                         margin: 20px;
+<<<<<<< HEAD
                     }
 
                     .sectionwrapper {
@@ -55,6 +66,16 @@ Hvid: #ffffff*/
                         justify-content: center;
                     }
 
+=======
+                    }
+
+                    .sectionwrapper {
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                    }
+
+>>>>>>> origin/master
                     .column {
                         width: 400px;
                     }
@@ -88,6 +109,7 @@ Hvid: #ffffff*/
                         font-family: 'atwriter-webfont';
                         font-style: bold;
                         font-size: 17px;
+<<<<<<< HEAD
                     }
 
                     .menu a:hover {
@@ -105,6 +127,14 @@ Hvid: #ffffff*/
                         justify-content: center;
                     }
 
+=======
+                    }
+
+                    .menu a:hover {
+                        color: #cf6539;
+                    }
+
+>>>>>>> origin/master
                     @media screen and (orientation:portrait) and (min-width: 376px) {
                         .video iframe {
                             width: 395px;
