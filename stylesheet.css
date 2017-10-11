@@ -24,7 +24,11 @@ p {
 
 .sectionwrapper {
     display: flex;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+}
+
+.column {
+    width: 400px;
 }
 
 .video {
