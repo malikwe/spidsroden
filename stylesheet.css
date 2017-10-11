@@ -18,17 +18,20 @@ Hvid: #ffffff*/
     font-style: normal;
 }
 
+
 p {
-    font-family: "atwriter-webfont"
+    font-family: "atwriter-webfont";
 }
 
 .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .column {
     width: 400px;
+
 }
 
 .video iframe {
@@ -37,8 +40,14 @@ p {
     width: 560px;
 }
 
+
 @media screen and (orientation:portrait) and (min-width: 376px) {
     .video irame {
         width: 50px;
     }
-}
+    .instagram {
+        max-width: 800px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+
+    }
