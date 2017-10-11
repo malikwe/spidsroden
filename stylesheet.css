@@ -1,4 +1,4 @@
-    /*COLORS:
+            /*COLORS:
 Mørk orange: #8c2f0e
 Lysere orange: #cf6539
 Lyseste orange: #e59136
@@ -9,60 +9,58 @@ Lyseste grøn: #aac174
 Sort: #000000
 Hvid: #ffffff*/
 
-    * {
-        margin: 0;
-    }
+        * {
+            margin: 0;
+        }
 
-    @font-face {
-        font-family: 'atwriter-webfont';
-        src: url('font/atwriter-webfont.woff2') format('woff2'), url('font/atwriter-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
-    }
+        @font-face {
+            font-family: 'atwriter-webfont';
+            src: url('font/atwriter-webfont.woff2') format('woff2'), url('font/atwriter-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
 
-    a {
-        font-family: "atwriter-webfont";
-        color: #69933c;
-    }
+        a {
+            font-family: "atwriter-webfont";
+            color: #69933c;
+        }
 
-    footer {
-        background-color: #476d42;
-    }
+        footer {
+            font-family: "atwriter-webfont";
+            background-color: #476d42;
+        }
 
-    #kontaktinfo img {
-        width: 400px;
-    }
+        #kontaktinfo img {
+            width: 400px;
+        }
 
-    p {
-        font-family: "atwriter-webfont";
-        margin: 20px;
-    }
+        p {
+            font-family: "atwriter-webfont";
+            margin: 20px;
+        }
 
-    .sectionwrapper {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+        .sectionwrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
 
-    padding: 0;
-}
-.column {
-    width: 400px;
-}
-@media screen and (orientation:portrait) and (min-width: 376px) {
-    .video iframe {
-        width: 395px;
-    }
+        .column {
+            width: 400px;
+        }
 
-    .instagram {
-        max-width: 800px;
-        margin-left: 50%;
-        transform: translateX(-50%);
-    }
-
-    .video iframe {
-        margin-left: 50%;
-        transform: translateX(-50%);
-        width: 1000px;
-        height: 600px;
-    }
+        @media screen and (orientation:portrait) and (min-width: 376px) {
+            .video iframe {
+                width: 395px;
+            }
+            .instagram {
+                max-width: 800px;
+                margin-left: 50%;
+                transform: translateX(-50%);
+            }
+            .video iframe {
+                margin-left: 50%;
+                transform: translateX(-50%);
+                width: 1000px;
+                height: 600px;
+            }
