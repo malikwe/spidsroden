@@ -26,3 +26,9 @@ p {
     display: flex;
     flex-wrap: wrap
 }
+
+.video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
