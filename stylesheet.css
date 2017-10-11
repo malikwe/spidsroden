@@ -21,3 +21,8 @@ Hvid: #ffffff*/
 p {
     font-family: "atwriter-webfont"
 }
+
+.sectionwrapper {
+    display: flex;
+    flex-wrap: wrap
+}
