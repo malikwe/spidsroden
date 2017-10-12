@@ -157,11 +157,20 @@ header .sectionwrapper {
 .contact {
     background-image: url(image/papirbaggrund.jpg);
     margin: 0 0 40px 0;
+    opacity: 0.8;
 
 }
 
+.contact a {
+    color: #476d42;
+}
+
+.contact a:hover {
+    color: #e59136;
+}
+
 .contact h2 {
-    padding-left: 6px
+    padding-left: 6px;
 }
 
 .column_kontakt {
