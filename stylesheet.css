@@ -173,6 +173,10 @@ header .sectionwrapper {
     padding-left: 6px;
 }
 
+.venstre {
+    width: 300px;
+}
+
 .column_kontakt {
     display: flex;
     flex-wrap: wrap;
