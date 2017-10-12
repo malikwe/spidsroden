@@ -154,6 +154,16 @@ header .sectionwrapper {
     width: 400px;
 }
 
+.contact {
+    background-image: url(image/papirbaggrund.jpg);
+    margin: 0 0 40px 0;
+
+}
+
+.contact h2 {
+    padding-left: 6px
+}
+
 .column_kontakt {
     display: flex;
     flex-wrap: wrap;
