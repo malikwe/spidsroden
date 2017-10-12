@@ -20,6 +20,25 @@ Hvid: #ffffff*/
     font-style: normal;
 }
 
+#video {
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+}
+
+#om {
+    margin-bottom: 50px;
+}
+
+.instagram {
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+}
+
+#kontaktinfo {
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+}
+
 h2 {
     font-family: 'atwriter-webfont';
 }
@@ -44,6 +63,7 @@ footer img {
     width: 100%
 }
 
+
 #kontaktinfo img {
     width: 400px;
 }
@@ -59,22 +79,17 @@ p {
     justify-content: center;
 }
 
+.pic {
+    display: flex;
+    align-items: center;
 }
 
-.sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
 
 .column {
     width: 400px;
 }
 
-.instagram {
-    max-width: 800px;
-    margin: 0 auto 20px auto;
-}
+
 
 .hs-responsive-embed-youtube iframe {
     position: absolute;
@@ -87,12 +102,6 @@ p {
     padding-bottom: 56.25%;
     /* 16:9 Aspect Ratio */
     padding-top: 25px;
-}
-
-#video {
-    max-width: 800px;
-    margin: 0 auto 20px auto;
-
 }
 
 /*.video iframe {
@@ -136,7 +145,6 @@ height: 600px;
     justify-content: center;
 }
 
-}
 
 .menu a:hover {
     color: #cf6539;
