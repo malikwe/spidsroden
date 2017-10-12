@@ -105,7 +105,9 @@ p {
 #kontaktinfo img {
     width: 400px;
 }
-
+.frontpic {
+    max-width: 820px;
+}
 .ikon {
     width: 40px !important;
     height: 40px;
