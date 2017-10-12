@@ -26,11 +26,12 @@ h2 {
 
 a {
     font-family: "atwriter-webfont";
-    color: #69933c;
+    color: #e59136;
+    text-decoration: none;
 }
 
 a:hover {
-    color: #ff995f;
+    color: #476d42;
 }
 
 p {
@@ -44,11 +45,25 @@ p {
     justify-content: center;
 }
 
+header .sectionwrapper {
+    flex-direction: column;
+}
+
+.top {
+    margin: 0 auto 0 auto;
+}
+
+.top img {
+    width: 60vw;
+}
+
+.bottom {
+    align-self: center;
+}
+
 .menu {
-    background-color: #476d42;
+    background-color: #cf6539;
     overflow: hidden;
-    margin-top: 205px;
-    float: right;
     display: block;
     color: #000000;
     text-align: center;
@@ -59,8 +74,12 @@ p {
     font-size: 17px;
 }
 
+.menu a {
+    color: #476d42;
+}
+
 .menu a:hover {
-    color: #cf6539;
+    color: #e59136;
 }
 
 #video {
@@ -136,7 +155,6 @@ p {
     flex-wrap: wrap;
     justify-content: center;
 }
-
 
 footer {
     font-family: "atwriter-webfont";
