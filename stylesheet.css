@@ -85,6 +85,13 @@ p {
     margin-bottom: 50px;
 }
 
+#om .column {
+    border-style: solid;
+    border-color: #8c2f0e;
+    border-width: 4px;
+    margin-right: 30px;
+}
+
 .instagram {
     max-width: 800px;
     margin: 0 auto 50px auto;
