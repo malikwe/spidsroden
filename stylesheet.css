@@ -105,6 +105,10 @@ header .sectionwrapper {
 
 }
 
+#om .column {
+    width: 415px;
+}
+
 .papir1,
 .papir2 {
     background-image: url(image/papirbaggrund.jpg);
