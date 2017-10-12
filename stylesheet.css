@@ -29,6 +29,10 @@ a {
     color: #69933c;
 }
 
+a:hover {
+    color: #ff995f;
+}
+
 p {
     font-family: "atwriter-webfont";
     margin: 20px;
