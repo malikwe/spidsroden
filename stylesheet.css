@@ -73,8 +73,7 @@ p {
 
 .instagram {
     max-width: 800px;
-    margin-left: 50%;
-    transform: translateX(-50%);
+    margin: 0 auto 20px auto;
 }
 
 .hs-responsive-embed-youtube iframe {
