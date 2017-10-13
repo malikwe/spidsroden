@@ -101,7 +101,6 @@ header .sectionwrapper {
 
 #om {
     margin-bottom: 50px;
-
 }
 
 #om .column {
@@ -116,10 +115,7 @@ header .sectionwrapper {
     opacity: 0.8;
     padding: 20px;
     margin: 15px;
-
-
 }
-
 
 .instagram {
     max-width: 800px;
@@ -157,7 +153,14 @@ header .sectionwrapper {
     background-image: url(image/papirbaggrund.jpg);
     margin: 0 0 40px 0;
     opacity: 0.8;
+}
 
+.grcolumn {
+    background-image: url(image/papirbaggrund.jpg);
+    margin: 0 0 40px 0;
+    opacity: 0.8;
+    max-width: 800px;
+    padding: 6px;
 }
 
 .contact a {
@@ -192,9 +195,6 @@ footer {
 footer img {
     width: 100%
 }
-
-
-
 
 @media screen and (max-width: 375px) {
     .papir2,
