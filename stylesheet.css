@@ -193,3 +193,13 @@ footer {
 footer img {
     width: 100%
 }
+
+
+
+
+@media screen and (max-width: 375px) {
+    .papir2,
+    .papir1 {
+        height: 390px;
+    }
+}
