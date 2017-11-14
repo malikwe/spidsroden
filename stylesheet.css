@@ -200,5 +200,3 @@ footer img {
         height: 390px;
     }
 }
-
-$ git config --global core.excludesfile~/.gitignore $ echo .DS_Store>>~/.gitignore
